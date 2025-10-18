@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take Home Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        div.articles { 
+            background-color: green;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 100vh;
+        width: 100%;
+        }
+
+
+
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Take Home Page</h1>
+    </header>
+    <div class="articles" id="articles">
+        <article>
+            <h2>Article 1</h2>
+            <p>This is the content of the first article.</p>
+        </article>
+        <article>
+            <h2>Article 2</h2>
+            <p>This is the content of the second article.</p>
+        </article>
+        <article>
+            <h2>Article 3</h2>
+            <p>This is the content of the third article.</p>
+        </article>
+        <article>
+            <h2>Article 4</h2>
+            <p>This is the content of the fourth article.</p> </article>
+</div>
+<form id="articleForm">
+  <!-- Field for the title -->
+   <div>
+    <label for="title">Article Title:</label><br>
+  <input type="text" id="title" name="title" placeholder="Enter article title" required><br><br>
+   </div>
+  
+
+  <!-- Field for the body -->
+ <div>
+     <label for="body">Article Body:</label><br>
+  <textarea id="body" name="body" placeholder="Write your article here..." rows="5" cols="40" required></textarea><br><br>
+ </div>
+
+  <!-- Submit button -->
+  
+    <button type="submit">Add Article</button>
+  
+</form>
+
+  
+    <footer>
+        <p>&copy; 2024 Take Home Page. All rights reserved.</p>
+    </footer>
